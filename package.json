@@ -1,0 +1,40 @@
+{
+  "name": "html-pdf-pup",
+  "version": "1.0.8",
+  "description": "HTML to PDF converter that uses puppeteer",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "source": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelForerojiga/html-pdf-pup.git"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "nodejs",
+    "puppeteer"
+  ],
+  "author": {
+    "name": "Samuel Forero"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^13.7.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "package.json",
+    "README.md"
+  ]
+}
